@@ -9,13 +9,39 @@ body {
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /*header*/
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-address {
     font-style: normal;
 }
@@ -76,6 +102,9 @@ a {
 /*main*/
 .hero-section {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -85,6 +114,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .button {
@@ -95,6 +127,9 @@ a {
     color: #fff;
     font-family: inherit;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
 }
 
 .button:hover {
@@ -113,12 +148,20 @@ a {
     overflow: hidden;
 }
 
+.our-advantages {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.advantages {}
+
 .advantage-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantage-name {
@@ -139,6 +182,12 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.team {
+    padding-bottom: 120px;
 }
 
 .team-card {
@@ -152,6 +201,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .section-exp {
@@ -167,6 +217,11 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
+}
+
+.portfolio {
+    padding-bottom: 120px;
 }
 
 .portfolio-card {
@@ -184,6 +239,17 @@ a {
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.container-footer {
+    max-width: 264px;
+}
+
+.container-logo {
+    padding-bottom: 16px;
 }
 
 .logo-foot {
