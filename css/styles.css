@@ -196,8 +196,6 @@ img {
 }
 
 .advantages {
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     gap: 24px;
 }
@@ -218,7 +216,7 @@ img {
 }
 
 .advantages-exp {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team {
